@@ -14,8 +14,7 @@ One API key. No other vendors, no scraping setup, zero npm dependencies.
 
 ## Why "Open Profound"
 
-The same way [open-lovable](https://github.com/firecrawl/open-lovable) is the
-open-source take on Lovable, Open Profound is the open-source take on
+Open Profound is the open-source take on
 [Profound](https://tryprofound.com) — the category-defining AI-visibility
 platform. Commercial platforms (Profound, Peec, Otterly) do this well and
 charge accordingly. Open-source trackers mostly query LLM *APIs*, which are not
