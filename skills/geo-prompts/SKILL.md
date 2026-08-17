@@ -44,6 +44,22 @@ nobody-asks-this) produce flattering, useless numbers.
 }
 ```
 
+## Optional: ground prompts in search data (DataForSEO)
+
+If the user has the official [DataForSEO MCP server](https://github.com/dataforseo/mcp-server-typescript)
+configured (`npx dataforseo-mcp-server`, needs a DataForSEO account), use it to
+upgrade step 2 from plausible to volume-validated:
+
+- Pull keyword ideas + search volume for the category seeds; keep prompt themes
+  that real people search, drop zero-volume guesses.
+- Pull "people also ask" / related questions for the top keywords — these are
+  already phrased as questions, which is how AI-engine prompts look.
+- Note the volume next to each prompt in the output table so audit results can
+  be weighted by demand.
+
+If the MCP server isn't configured, say so once and proceed with LLM-generated
+prompts — it's optional, not a gate.
+
 ## Constraints
 
 - Monitor limits: ≤100 prompts, ≤20 aliases, ≤20 domains, prompt ≤2,000 chars,

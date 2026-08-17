@@ -171,7 +171,7 @@ function usage() {
   querying.mjs monitor run <id>
   querying.mjs monitor delete <id>
 
-taskTypes: CHATGPT PERPLEXITY GEMINI CLAUDE GROK DEEPSEEK AMAZON
-           GOOGLE_AIO GOOGLE_AIMODE (query-style engines accept prompt too)`);
+taskTypes: CHATGPT PERPLEXITY GEMINI GOOGLE_AIO GOOGLE_AIMODE
+           NAVER_AI_BRIEF NAVER_AI_MODE (query-style engines accept prompt too)`);
   process.exit(2);
 }

@@ -3,9 +3,9 @@
 **Data-driven GEO for Claude Code — measured on real AI answers, not guesses.**
 
 Open Profound is an open-source agent skill suite that measures how AI engines
-actually answer your buyers' questions — ChatGPT, Perplexity, Gemini, Claude,
-Grok, DeepSeek, Amazon Rufus, Google AI Overviews, and Google AI Mode — and
-turns the gaps into concrete page and content fixes.
+actually answer your buyers' questions — ChatGPT, Perplexity, Gemini, Google
+AI Overviews, Google AI Mode, and Naver's AI surfaces — and turns the gaps
+into concrete page and content fixes.
 
 Most GEO tools predict citability from page structure. Open Profound skips the
 prediction: it fires your prompt set at the real consumer surfaces through the
@@ -14,7 +14,10 @@ One API key. No other vendors, no scraping setup, zero npm dependencies.
 
 ## Why "Open Profound"
 
-Commercial AI-visibility platforms (Profound, Peec, Otterly) do this well and
+The same way [open-lovable](https://github.com/firecrawl/open-lovable) is the
+open-source take on Lovable, Open Profound is the open-source take on
+[Profound](https://tryprofound.com) — the category-defining AI-visibility
+platform. Commercial platforms (Profound, Peec, Otterly) do this well and
 charge accordingly. Open-source trackers mostly query LLM *APIs*, which are not
 the surfaces your buyers see — an API answer from `gpt-4o` is not the ChatGPT
 answer with web search, and nothing from an API resembles a Google AI Overview.
@@ -57,9 +60,11 @@ against a baseline instead of vibes.
 
 ## Engines
 
-`CHATGPT` · `PERPLEXITY` · `GEMINI` · `CLAUDE` · `GROK` · `DEEPSEEK` ·
-`AMAZON` (Rufus) · `GOOGLE_AIO` (AI Overviews) · `GOOGLE_AIMODE` · Naver
-surfaces for the Korean market. Availability: `node scripts/querying.mjs capacity`.
+The engines querying.ai serves to API customers:
+
+`CHATGPT` · `PERPLEXITY` · `GEMINI` · `GOOGLE_AIO` (AI Overviews) ·
+`GOOGLE_AIMODE` (AI Mode) · `NAVER_AI_BRIEF` · `NAVER_AI_MODE` (Korean market).
+Live availability: `node scripts/querying.mjs capacity`.
 
 ## Costs
 
