@@ -1,7 +1,7 @@
 {
   "name": "open-profound",
   "version": "0.1.0",
-  "description": "Data-driven GEO agent for Claude Code. Measures brand visibility on real AI-engine answers (ChatGPT, Perplexity, Gemini, Google AI Overviews, Google AI Mode, Naver AI Brief/AI Mode) via the querying.ai API, then turns the gaps into concrete page and content fixes. Prompt-set design, one-time audits, recurring monitors, evidence-based optimization — with one API key.",
+  "description": "Data-driven GEO agent for Claude Code. Measures brand visibility on real AI-engine answers (ChatGPT, Perplexity, Gemini, Google AI Overviews, Google AI Mode) via the querying.ai API, then turns the gaps into concrete page and content fixes. Prompt-set design, one-time audits, recurring monitors, evidence-based optimization — with one API key.",
   "author": {
     "name": "Anymorph",
     "url": "https://github.com/anymorph-ai"

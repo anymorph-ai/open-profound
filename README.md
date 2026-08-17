@@ -4,8 +4,8 @@
 
 Open Profound is an open-source agent skill suite that measures how AI engines
 actually answer your buyers' questions — ChatGPT, Perplexity, Gemini, Google
-AI Overviews, Google AI Mode, and Naver's AI surfaces — and turns the gaps
-into concrete page and content fixes.
+AI Overviews, and Google AI Mode — and turns the gaps into concrete page and
+content fixes.
 
 Most GEO tools predict citability from page structure. Open Profound skips the
 prediction: it fires your prompt set at the real consumer surfaces through the
@@ -62,7 +62,7 @@ against a baseline instead of vibes.
 The engines querying.ai serves to API customers:
 
 `CHATGPT` · `PERPLEXITY` · `GEMINI` · `GOOGLE_AIO` (AI Overviews) ·
-`GOOGLE_AIMODE` (AI Mode) · `NAVER_AI_BRIEF` · `NAVER_AI_MODE` (Korean market).
+`GOOGLE_AIMODE` (AI Mode).
 Live availability: `node scripts/querying.mjs capacity`.
 
 ## Costs

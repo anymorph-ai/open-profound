@@ -172,6 +172,6 @@ function usage() {
   querying.mjs monitor delete <id>
 
 taskTypes: CHATGPT PERPLEXITY GEMINI GOOGLE_AIO GOOGLE_AIMODE
-           NAVER_AI_BRIEF NAVER_AI_MODE (query-style engines accept prompt too)`);
+           (query-style engines accept prompt too)`);
   process.exit(2);
 }

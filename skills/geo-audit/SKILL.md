@@ -17,8 +17,7 @@ license: MIT
 1. **Prompt set**: load `geo/prompts.json` if present; otherwise run the
    `geo-prompts` skill first.
 2. **Engine selection**: default `CHATGPT`, `PERPLEXITY`, `GEMINI`,
-   `GOOGLE_AIO`. Offer `GOOGLE_AIMODE`, and `NAVER_AI_BRIEF` / `NAVER_AI_MODE`
-   for the Korean market. These seven are the full querying.ai self-serve set —
+   `GOOGLE_AIO`; offer `GOOGLE_AIMODE` too. These five are the supported set —
    never offer others. Check availability with
    `node scripts/querying.mjs capacity`.
 3. **Confirm cost**: show `prompts × engines = N tasks` and get user
