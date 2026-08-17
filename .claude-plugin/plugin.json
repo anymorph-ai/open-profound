@@ -1,0 +1,29 @@
+{
+  "name": "open-profound",
+  "version": "0.1.0",
+  "description": "Data-driven GEO agent for Claude Code. Measures brand visibility on real AI-engine answers (ChatGPT, Perplexity, Gemini, Claude, Grok, DeepSeek, Amazon Rufus, Google AI Overviews, Google AI Mode) via the querying.ai API, then turns the gaps into concrete page and content fixes. Prompt-set design, one-time audits, recurring monitors, evidence-based optimization — with one API key.",
+  "author": {
+    "name": "Anymorph",
+    "url": "https://github.com/anymorph-ai"
+  },
+  "license": "MIT",
+  "homepage": "https://querying.ai",
+  "repository": "https://github.com/anymorph-ai/open-profound",
+  "keywords": [
+    "geo",
+    "generative-engine-optimization",
+    "aeo",
+    "answer-engine-optimization",
+    "ai-visibility",
+    "ai-search",
+    "brand-monitoring",
+    "share-of-voice",
+    "citation-tracking",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "google-ai-overviews",
+    "querying-ai",
+    "profound-alternative"
+  ]
+}

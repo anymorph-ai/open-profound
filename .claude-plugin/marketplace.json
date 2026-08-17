@@ -1,0 +1,34 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "anymorph-open-profound",
+  "owner": {
+    "name": "Anymorph"
+  },
+  "metadata": {
+    "description": "Open Profound — data-driven GEO agent for Claude Code, powered by real AI-engine answers via the querying.ai API."
+  },
+  "plugins": [
+    {
+      "name": "open-profound",
+      "source": "./",
+      "description": "Measure brand visibility on real AI-engine answers (ChatGPT, Perplexity, Gemini, Google AI Overviews, and more), monitor it over time, and turn the gaps into concrete page and content fixes. One API key, zero dependencies.",
+      "author": {
+        "name": "Anymorph",
+        "url": "https://github.com/anymorph-ai"
+      },
+      "category": "marketing",
+      "homepage": "https://querying.ai",
+      "keywords": [
+        "geo",
+        "aeo",
+        "ai-visibility",
+        "ai-search",
+        "brand-monitoring",
+        "chatgpt",
+        "perplexity",
+        "google-ai-overviews",
+        "profound-alternative"
+      ]
+    }
+  ]
+}
